@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/main.css">
+	<title>4-Exam</title>
+</head>
+<body>
+	<h1 class="visually-hidden">Something</h1>
+
+	<div class="container">
+		<div class="lists">
+			<ul class="user">
+				<template class="user__template">
+					<li class="user__item" >
+						<h2 class="user__username"></h2>
+						<div class="user__info info">
+							<h3 class="info__name"></h3>
+							<span class="info__id"></span>
+						</div>
+						<address class="user__address">
+							<span class="user__street"></span>
+							<span class="user__suite"></span>
+							<span class="user__city"></span>
+							<span class="user__zipcode"></span>
+						</address>
+						<div class="user__company">
+							<span class="user__company-name"></span>
+							<span class="user__company-catchPhrase"></span>
+							<span class="user__company-bs"></span>
+						</div>
+						<div class="user__links">
+							<a href="tel:" class="user__phone"></a>
+							<div class="user__links-info">
+								<div class="user__links-info-top">
+									<a href="" target="_blank" class="user__geo"></a>
+									<a href="" target="_blank" class="user__website"></a>
+								</div>
+								<a href="mailto:" class="user__email"></a>
+							</div>
+						</div>
+					</li>
+				</template>
+			</ul>
+			<ul class="post">
+					<template class="post__template">
+						<li class="post__item">
+							<h2 class="post__title"></h2>
+							<p class="post__body"></p>
+						</li>
+				</template>
+			</ul>
+			<ul class="comment">
+				<template class="comment__template">
+					<li class="comment__item">
+						<h2 class="comment__name"></h2>
+						<a href="mailto:" class="comment__email"></a>
+						<p class="comment__body"></p>
+					</li>
+				</template>
+			</ul>
+		</div>
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+</html>
